@@ -1,0 +1,54 @@
+.heading {
+    text-align: center;
+    font-weight: 800;
+    margin: 20px 20px 20px 20px;
+    border-style: solid;
+    border-color: aqua;
+    background-color: beige;
+}
+
+.subheading {
+    font-style: italic;
+    font-weight: normal;
+
+}
+
+.main {
+    margin: 20px 20px 20px 20px;
+    border-style: solid;
+    border-color: aqua;
+    background-color: blanchedalmond;
+}
+
+.score {
+    margin: 20px 20px 20px 20px;
+    height: 200px;
+    border-style: solid;
+    border-color: aqua;
+    background-color: darkkhaki;
+}
+
+
+#ques span {
+    display: inline;
+}
+
+#ques {
+    margin-top: 40px;
+    margin-bottom: 20px;
+    margin-left: 50px;
+    margin-right: 50px;
+    /*text-align: center;*/
+}
+
+#form {
+    margin-top: 20px;
+    margin-left: 50px;
+    margin-right: 50px;
+}
+
+.submit {
+    margin-top: 40px;
+
+    text-align: center;
+}

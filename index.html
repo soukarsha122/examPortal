@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exam Portal</title>
+    <link rel="stylesheet" href="style.css">
+
+</head>
+
+<body style="background-color: black;">
+
+    <!--Heading-->
+    <div class="heading">
+        <h1 style="letter-spacing: 5px; font-style: italic;font-weight: bold;">PARIKSHA </h1>
+        <div class="subheading">
+            <p>Attempt the following question</p>
+        </div>
+    </div>
+    <div class="main">
+        <!--Question-->
+        <p id="ques" style="font-weight: bolder; text-align: center; font-size: xx-large;"></p>
+
+        <!--Options-->
+        <form id="form">
+
+            <input type="radio" id="opt1" name="--Options--">
+            <label id="optt1" for="opt1"></label><br><br>
+
+            <input type="radio" id="opt2" name="--Options--">
+            <label id="optt2" for="opt2"></label><br><br>
+
+            <input type="radio" id="opt3" name="--Options--">
+            <label id="optt3" for="opt3"></label><br><br>
+
+            <input type="radio" id="opt4" name="--Options--">
+            <label id="optt4" for="opt4"></label><br><br>
+        </form>
+    </div>
+
+
+    <!--Button-->
+    <div class="submit">
+        <button type="submit" id="prev" onclick="prev()">Previous
+        </button>
+        <button type="submit" id="next" onclick="next()">Next
+        </button>
+    </div>
+
+    <!--Score-->
+    <div class="score">
+        <h2 style="text-align: center; font-style: oblique;letter-spacing: 3px;"><u>SCORE</u></h2>
+        <p id="score" style="text-align: center; color: white;font-weight: bolder; font-size: large;"></p>
+        <script src="script1.js" defer></script>
+    </div>
+
+</body>
+
+</html>
