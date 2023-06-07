@@ -1,1 +1,2 @@
 # examPortal
+<i>Assume a set of questions with their options and correct answers are available in an XML file. We create an HTML page with AJAX to retrieve the XML file and present it to the user one question at a time. The candidate can go back and forward scanning the questions and choosing answer options. On submitting, the final score will be displayed and no further changes to the answers will be permitted.</i>
